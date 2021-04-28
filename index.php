@@ -5,7 +5,7 @@
         // username => root
         // password => empty
         // database name => staff
-        $conn = mysqli_connect("localhost:3325", "root", "", "visitors");
+        $conn = mysqli_connect("remotemysql.com", "nAv0yUO8Ak", "nbxIxgQVBI", "nAv0yUO8Ak");
           
         // Check connection
         if($conn === false){
